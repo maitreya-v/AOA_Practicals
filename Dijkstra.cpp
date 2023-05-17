@@ -51,7 +51,7 @@ void Dijkstra(int G[MAX][MAX], int n, int startnode)
                 mindistance = distance[i];
                 nextnode = i;
             }
-        }
+        }   
 
         for (int i = 0; i < n; i++)
         {
