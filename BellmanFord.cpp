@@ -47,7 +47,7 @@ int BellmanFord(int distmat[20][20],int numVertices,int edges[20][2],int numEdge
 
 int main()
 {
-    int numVertices,numEdges,distmat[20][20],edges[20][2];
+    int numVertices,numEdges=0,distmat[20][20],edges[20][2];
 
     cout<<"Enter the number of vertices"<<endl;
     cin>>numVertices;

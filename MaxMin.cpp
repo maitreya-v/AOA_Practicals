@@ -108,8 +108,8 @@ int main(){
         cin >> arr[i];
     }
 
-    maxVal = arr[0];
-    minVal = arr[0];
+    // maxVal = arr[0];
+    // minVal = arr[0];
     maxValminVal(0, n - 1);
 
     cout << "maxVal is " << maxVal << endl;
